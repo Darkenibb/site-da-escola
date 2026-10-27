@@ -1,0 +1,38 @@
+/* Configurações básicas da página */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #eef2f3; /* Fundo cinza claro e suave */
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* O cartão branco centralizado */
+.container {
+  background-color: #ffffff; /* Fundo branco para o conteúdo */
+  padding: 40px 30px;
+  border-radius: 12px;       /* Bordas arredondadas modernas */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Sombra bem leve */
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Estilo do Título */
+h1 {
+  color: #1e3c72; /* Azul escuro tecnológico */
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+/* Estilo do Parágrafo */
+p {
+  color: #555555; /* Cinza escuro para melhor leitura */
+  font-size: 1.1rem;
+  margin: 0;
+}
